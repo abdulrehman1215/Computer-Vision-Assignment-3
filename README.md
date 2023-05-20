@@ -14,7 +14,7 @@ One of the key features of U-Net is its skip connections, which are connections 
 The U-Net architecture has been widely used and adapted in various applications, demonstrating its effectiveness in semantic segmentation tasks. Its versatility and ability to handle different image sizes and aspect ratios make it suitable for a wide range of tasks, including biomedical image segmentation, satellite imagery analysis, and natural scene understanding.
 Overall, the U-Net architecture has significantly contributed to the advancement of semantic segmentation by providing an efficient and effective framework for pixel-wise classification and accurate segmentation of objects in images.
 
-![Figure 1: Unet Architecture For Semantic Segmentation]("C:\Users\LENOVO\Desktop\unet.jpeg")
+![Figure 1: Unet Architecture For Semantic Segmentation]("https://miro.medium.com/v2/resize:fit:1400/1*f7YOaE4TWubwaFF7Z1fzNw.png")
 
 ### VGG 19:
 
