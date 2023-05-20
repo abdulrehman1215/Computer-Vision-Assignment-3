@@ -47,4 +47,60 @@ Both models were trained using Google Colab, which provided the necessary comput
 ### Training and Validation graphs:
 The graph for accuracy is as follows:
 
+![Figure 4: Training and validation Accuracies with VGG 19 backbone](https://github.com/abdulrehman1215/Computer-Vision-Assignment-3/blob/images/vgg%20accuracy.png)
 
+The graph for Loss is as follows:
+
+![Figure 5: Training and Validation Loss for VGG 19 Architecture](https://github.com/abdulrehman1215/Computer-Vision-Assignment-3/blob/images/vgg%20Loss.png)
+
+The graph for Mean Intersection Over Union is as follows:
+
+![Figure 6: Mean intersention Over Union For traning and validation using VGG 19 backbone](https://github.com/abdulrehman1215/Computer-Vision-Assignment-3/blob/images/vgg%20Miou.png)
+
+### Test Set MIoU:
+
+The Mean Intersection over Union for test set was 0.45
+
+### Semantic Segmentation Results:
+
+Here are the results of semantic segmentation on some randomly picked images from test dataset:
+
+![Figure 7: VGG backbone with 0.47 MIoU](https://github.com/abdulrehman1215/Computer-Vision-Assignment-3/blob/images/0.47%20VGG.png)
+
+![Figure 8: VGG backbone eith 0.39 MIoU](https://github.com/abdulrehman1215/Computer-Vision-Assignment-3/blob/images/0.39%20VGG.png)
+
+![Figure 9: VGG Backbone with 0.42 MIoU](https://github.com/abdulrehman1215/Computer-Vision-Assignment-3/blob/images/0.42%20VGG.png)
+
+## U-Net with VGG 19 Results:
+
+### Training and Validation graphs:
+
+The graph for accuracy is as follows:
+
+![Figure 10: Training and validation Accuracies with Mobile Net V2 backbone](https://github.com/abdulrehman1215/Computer-Vision-Assignment-3/blob/images/mob%20accuracy.png)
+
+The graph for Loss is as follows:
+
+![Figure 11:Training and validation Loss MobileNet V2 architecture](https://github.com/abdulrehman1215/Computer-Vision-Assignment-3/blob/images/mob%20Loss.png)
+
+The graph for Mean Intersection Over Union is as follows:
+
+![Figure 12: MIoU for Training and Validation](https://github.com/abdulrehman1215/Computer-Vision-Assignment-3/blob/images/mob%20Miou.png)
+
+### Test Set MIoU:
+
+The Mean Intersection over Union for test set was 0.46
+
+### Semantic Segmentation Results:
+
+Here are the results of semantic segmentation on some randomly picked images from test dataset:
+
+![Figure 13: MobileNet V2 Backbone with 0.5 MIoU](https://github.com/abdulrehman1215/Computer-Vision-Assignment-3/blob/images/0.5%20mob.png)
+
+![Figure 14: MobileNet V2 backbone with 0.48 MIoU](https://github.com/abdulrehman1215/Computer-Vision-Assignment-3/blob/images/0.48%20mob.png)
+
+![Figure 15:MobileNet V2 backbone with 0.45 MIoU](https://github.com/abdulrehman1215/Computer-Vision-Assignment-3/blob/images/0.45%20mob.png)
+
+## Conclusion:
+
+In this learning task, I have successfully implemented 2 semantic segmentation architectures and through the quantitative and qualitative results we can conclude that the semantic segmentation model consisting U-Net baseline and MobileNet v2 backbone performed better than U-net baseline and VGG 19 backbone.
