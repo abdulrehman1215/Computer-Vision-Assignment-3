@@ -24,7 +24,7 @@ One of the notable characteristics of VGG19 is its homogeneous architecture. It 
 VGG19 is often pre-trained on large-scale image classification datasets, such as ImageNet, and can be fine-tuned or used as a feature extractor for various computer vision tasks, including object detection, semantic segmentation, and image generation. Its deep architecture and large number of parameters make it capable of learning complex patterns and representations from images.
 While VGG19 has been widely adopted and achieved impressive performance in image classification tasks, its main drawback is its computational cost and memory requirements. The depth and number of parameters make it slower and more resource-intensive compared to some newer architectures. However, VGG19 remains a popular choice for benchmarking and serves as a baseline for comparison in many computer vision research studies.
 
-![Figure: 2VGG 19 Architecture]()
+![Figure: 2VGG 19 Architecture](https://github.com/abdulrehman1215/Computer-Vision-Assignment-3/blob/images/vgg19.jpeg)
 
 ### Mobile Net V2:
 
@@ -34,9 +34,17 @@ MobileNetV2 also introduces a parameter called the width multiplier, which allow
 The architecture of MobileNetV2 has been extensively optimized for mobile devices, achieving a good balance between accuracy and efficiency. It has been widely adopted in various applications, including object detection, image classification, and semantic segmentation. Its lightweight nature makes it well-suited for deployment on resource-constrained devices, where computational power and memory limitations are a concern.
 In summary, MobileNetV2 is a state-of-the-art neural network architecture that enables efficient and accurate deep learning on mobile and embedded devices. Its innovations, such as inverted residual blocks and width multiplier, contribute to its effectiveness in achieving high-performance inference while minimizing computational requirements.
 
+![Figure 3: Mobile Net V2 Architecture](https://github.com/abdulrehman1215/Computer-Vision-Assignment-3/blob/images/mobilenet%20v2.png)
+
 ## Transfer Learning details:
 
 In this study, transfer learning was employed to leverage the prebuilt models available in PyTorch with pre-trained weights from the ImageNet dataset. Training custom models from scratch was deemed impractical due to the extensive computational power and resources required. Instead, the models used in this research were based on the Unet architecture, serving as baselines with different backbones.
 The first model utilized the VGG19 backbone, which is a well-established convolutional neural network architecture. By incorporating the VGG19 backbone into the Unet framework, the model could benefit from the rich representations learned from large-scale image classification tasks.
 The second model employed the MobileNet v2 backbone, which is specifically designed for efficient mobile and embedded devices. By leveraging the lightweight and resource-efficient nature of MobileNet v2, the Unet-based model achieved a good balance between accuracy and efficiency, making it suitable for deployment on resource-constrained devices.
 Both models were trained using Google Colab, which provided the necessary computational resources for training deep learning models. By utilizing pre-trained weights from ImageNet, the models could leverage the learned features and generalize well to new datasets, reducing the need for extensive training on the specific task at hand.
+
+## U-Net with VGG 19 Results:
+### Training and Validation graphs:
+The graph for accuracy is as follows:
+
+
