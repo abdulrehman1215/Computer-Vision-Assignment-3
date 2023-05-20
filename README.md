@@ -14,7 +14,7 @@ One of the key features of U-Net is its skip connections, which are connections 
 The U-Net architecture has been widely used and adapted in various applications, demonstrating its effectiveness in semantic segmentation tasks. Its versatility and ability to handle different image sizes and aspect ratios make it suitable for a wide range of tasks, including biomedical image segmentation, satellite imagery analysis, and natural scene understanding.
 Overall, the U-Net architecture has significantly contributed to the advancement of semantic segmentation by providing an efficient and effective framework for pixel-wise classification and accurate segmentation of objects in images.
 
-![Figure 1: Unet Architecture For Semantic Segmentation]("https://miro.medium.com/v2/resize:fit:1400/1*f7YOaE4TWubwaFF7Z1fzNw.png")
+![Figure 1: Unet Architecture For Semantic Segmentation](https://miro.medium.com/v2/resize:fit:1400/1*f7YOaE4TWubwaFF7Z1fzNw.png)
 
 ### VGG 19:
 
@@ -23,6 +23,8 @@ VGG19 is known for its simplicity and effectiveness in image classification task
 One of the notable characteristics of VGG19 is its homogeneous architecture. It utilizes a consistent design pattern, where multiple 3x3 convolutional layers are stacked together before each pooling layer. This approach allows for more abstract and hierarchical feature extraction, capturing both low-level and high-level information in the image.
 VGG19 is often pre-trained on large-scale image classification datasets, such as ImageNet, and can be fine-tuned or used as a feature extractor for various computer vision tasks, including object detection, semantic segmentation, and image generation. Its deep architecture and large number of parameters make it capable of learning complex patterns and representations from images.
 While VGG19 has been widely adopted and achieved impressive performance in image classification tasks, its main drawback is its computational cost and memory requirements. The depth and number of parameters make it slower and more resource-intensive compared to some newer architectures. However, VGG19 remains a popular choice for benchmarking and serves as a baseline for comparison in many computer vision research studies.
+
+![Figure: 2VGG 19 Architecture]()
 
 ### Mobile Net V2:
 
